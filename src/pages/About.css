@@ -1,0 +1,44 @@
+.about-page {
+  min-height: 100vh;
+  background: #020b1a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  color: white;
+}
+
+.about-card {
+  max-width: 700px;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  padding: 40px;
+  text-align: center;
+
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.8s ease;
+}
+
+.about-card.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.about-card h1 {
+  margin-bottom: 20px;
+  font-size: 32px;
+}
+
+.about-card p {
+  font-size: 18px;
+  line-height: 1.6;
+  opacity: 0.9;
+}
+.about-card h2 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 22px;
+  color: #7aa8ff;
+}
