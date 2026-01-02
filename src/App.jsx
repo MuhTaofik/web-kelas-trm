@@ -6,7 +6,7 @@ import ClassGallery from "./pages/ClassGallery";
 import Maps from "./pages/Maps";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
-
+import RateUs from "./pages/RateUs";
 
 function App() {
   return (
@@ -36,6 +36,10 @@ function App() {
       <section id="Contact">
         <Contact />
       </section>
+
+<section id="RateUs">
+  <RateUs />
+</section>
 
       <section id="Footer">
         <Footer />

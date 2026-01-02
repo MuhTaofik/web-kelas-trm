@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./Navbar.css";
-import logoKampus from "../assets/polidwa.jpg";
+import logoKampus from "../assets/polidewa.png";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -9,7 +9,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="menu-icon" onClick={() => setOpen(!open)}>☰</div>
 
-      <div className="navbar-title">WELCOME CLASS</div>
+      <div className="navbar-title">WELCOME TO CLASS</div>
 
       <img src={logoKampus} alt="Logo Kampus" className="logo-kampus" />
 

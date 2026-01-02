@@ -90,3 +90,13 @@ section {
     height: auto;
   }
 }
+
+@media (max-width: 480px) {
+  .gallery-item img {
+    height: 160px;
+  }
+
+  .gallery-section h2 {
+    font-size: 22px;
+  }
+}

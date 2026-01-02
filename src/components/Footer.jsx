@@ -6,7 +6,8 @@ const Footer = () => {
       <div className="footer-content">
         <h3>Multimedia_Engineering_Technology</h3>
         <p>
-          Website resmi kelas Teknologi Rekayasa Multimedia</p> 
+          Website resmi kelas Teknologi Rekayasa Multimedia</p>
+          <p>Kelas C</p>
           <p>ANGKATAN 2024
         </p>
 

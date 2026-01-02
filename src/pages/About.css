@@ -1,19 +1,18 @@
-.about-page {
-  min-height: 100vh;
-  background: #020b1a;
+.about-section {
+  width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
-  padding: 40px 20px;
+  padding: 60px 20px;
+  background: #020b1a;
   color: white;
 }
 
+/* CARD */
 .about-card {
-  max-width: 700px;
-  background: rgba(255, 255, 255, 0.08);
-  backdrop-filter: blur(10px);
-  border-radius: 16px;
+  max-width: 900px;
+  background: rgba(255, 255, 255, 0.05);
   padding: 40px;
+  border-radius: 16px;
   text-align: center;
 
   opacity: 0;
@@ -21,24 +20,30 @@
   transition: all 0.8s ease;
 }
 
+/* ANIMASI MASUK */
 .about-card.show {
   opacity: 1;
   transform: translateY(0);
 }
 
-.about-card h1 {
-  margin-bottom: 20px;
+.about-card h2 {
   font-size: 32px;
+  margin-bottom: 20px;
 }
 
 .about-card p {
-  font-size: 18px;
-  line-height: 1.6;
-  opacity: 0.9;
+  line-height: 1.8;
+  font-size: 16px;
 }
-.about-card h2 {
-  margin-top: 30px;
-  margin-bottom: 10px;
-  font-size: 22px;
-  color: #7aa8ff;
+
+.about-page {
+  min-height: 100vh;   /* INI KUNCI UTAMA */
+  width: 100%;
+  background: #020b1a;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 80px 20px; /* biar gak ketutup navbar */
 }

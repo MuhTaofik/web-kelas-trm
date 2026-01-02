@@ -46,21 +46,20 @@ const membersData = [
 // KOMPONEN
 const Members = () => {
   return (
-  <div style={{ padding: "80px 20px", color: "white" }}>
-    <h2>Members</h2>
+    <section id="members" className="members-section">
+      <h2 className="members-title">Members</h2>
 
-    <div className="members-grid">
-      {membersData.map((member, index) => (
-        <div className="member-card" key={index}>
-          <img src={member.photo} alt={member.name} />
-          <h3>{member.name}</h3>
-          <p>{member.role}</p>
-        </div>
-      ))}
-    </div>
-  </div>
-);
-
+      <div className="members-grid">
+        {membersData.map((member, index) => (
+          <div className="member-card" key={index}>
+            <img src={member.photo} alt={member.name} />
+            <h3>{member.name}</h3>
+            <p>{member.role}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
 };
 
 export default Members;
