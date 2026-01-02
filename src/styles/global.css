@@ -1,0 +1,36 @@
+/* RESET DASAR */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* OFFSET NAVBAR FIXED */
+section {
+  scroll-margin-top: 80px;
+  padding: 60px 20px;   /* ⬅️ INI KUNCI JARAK */
+}
+
+/* JANGAN FULL LAYAR KECUALI HOME */
+section:not(#home) {
+  min-height: auto;
+}
+section {
+  scroll-margin-top: 80px;
+}
+
+body {
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+.section {
+  min-height: 100vh;
+  padding: 80px 20px;
+  background: transparent; /* IKUT BODY */
+}
